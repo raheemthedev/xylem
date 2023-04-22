@@ -1,0 +1,771 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 10px;
+}
+
+.navLogo {
+    width: 25%;
+}
+
+.navSideBar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.mainFirst, .mainSecond,.theProblem, .theSolution, .waterCrisis, .theMovement, .thePriceDraw, .theWin {
+    padding-block: 30px 20px;
+    text-align: center;
+}
+
+.mainFirst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+h1 {
+    font-weight: 800;
+    opacity: 1;
+}
+
+
+.mainFirst img {
+    position: absolute;
+    top: 130px;
+}
+
+.mainFirst p {
+    font-size: 1.2rem;
+    line-height: 23px;
+    opacity: 0.7;
+    width: 97%;
+}
+
+.mainSecond p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-block-end: 20px;
+}
+
+.theProblem {
+    position: relative;
+}
+
+.bgwaterDrop {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}
+
+.bgwaterDrop .imgOne {
+    position: absolute;
+    left: -25px;
+}
+
+.bgwaterDrop .imgTwo {
+    position: absolute;
+    right: -25px;
+}
+
+.theProblem h1, 
+.theSolution h1, 
+.waterCrisis h1, 
+.theMovement h1, 
+.thePriceDraw h1, 
+.theWin h1, 
+.faq h1, 
+.takeActionDiv h2 {
+    color: var(--xylemyellow);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.theProblem p {
+    width: 83%;
+    margin: auto;
+}
+
+.theSolution p {
+    width: 83%;
+    padding-block-end: 40px;
+    margin: auto;
+}
+
+.theMovement {
+    padding-top: 70px;
+}
+
+.theMovement .earn {
+    font-size: 1.7rem;
+    font-weight: 800;
+    width: 60%;
+    margin: auto;
+}
+
+.theMovement .action, .theWin .action {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.thePriceDraw p {
+    font-weight: 600;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.theWin .earn {
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 90%;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    height: 245px;
+    width: 170px;
+    text-align: left;
+}
+
+.waterDiv {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-block: -10px -13px;
+}
+
+.waterDiv p {
+    font-size: 0.6rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.waterDrops {
+    display: flex;
+    align-items: center;
+}
+
+.waterDrops img {
+    margin-right: -2px;
+}
+.divCard {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+/* .card::-webkit-scrollbar {
+    width: 0px;
+} */
+
+.card .wasteInWat {
+    width: 100%;
+    height:100px;
+}
+
+.card h3 {
+    font-size: 0.8rem;
+    margin-bottom: -5px;
+}
+
+.untreaWa {
+    font-size: 0.5rem;
+    padding-bottom: 7px;
+}
+
+.card a.btn {
+    padding: 6px 25px 6px 25px;
+    background-color: var(--xylemyellow);
+    color: white;
+    border-radius: 5px;
+    transition: all 0.1s;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-inline: 35px;
+}
+
+.faq {
+    padding-block: 70px 50px;
+}
+
+.faq > p {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.accordionDiv {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    align-items: center;
+    gap: 60px;
+}
+
+.accordion {
+    text-align: left;
+}
+
+.accordionChild {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: space-between;
+}
+
+.accordionChild p {
+    text-align: left;
+}
+
+.accordionChild:nth-child(5) {
+    padding-bottom: 30px;
+}
+
+.accordion hr {
+    border: .3px solid var(--xylemyellow);
+}
+
+.accordion a.btn {
+    padding: 10px 30px 10px 30px;
+}
+
+.questionMark {
+    width: 100%;
+}
+
+footer {
+    padding-bottom: 50px;
+}
+
+.footerDiv {
+    padding: 20px;
+    background: url(.png), 
+                linear-gradient(180deg, 
+                #287FA9 0%, 
+                #1B5774 100%);
+    border-radius: 10px;
+}
+
+.footerDiv hr {
+    border: 1px solid white;
+    height: .3px;
+    background-color: white;
+}
+
+.footerhDiv {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+
+.footerhDiv h1 {
+    font-size: 1.3rem;
+    width: 60%;
+    color: white;
+}
+
+.takeActionDiv p {
+    font-size: 0.7rem;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.takeActionDiv a.btn {
+    padding: 8px 20px 8px 20px;
+    font-size: 0.9rem;
+}
+
+.footerTerm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerTerm p {
+    font-size: 0.6rem;
+    color: white;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 5px;
+}
+
+.socialLinks img {
+    width: 4.5%;
+}
+
+.menuOver, .profileOver {
+    background-color: white;
+    color: var(--xylemblue);
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    padding-block-start: 20px;
+    display: none;
+} 
+
+.navDiv {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-inline: 10px;
+}
+
+.xBtn, .yBtn {
+    cursor: pointer;
+    width: 23%;
+    height: 23%;
+}
+
+.menuBody {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 310px;
+    padding-inline: 10px;
+}
+
+#menuBtn {
+    text-align: center;
+    border: 1px solid var(--xylemyellow);
+    color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menuBodyTxT .p {
+    padding-block: 10px;
+}
+
+.menuBodyTxT p {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.profileBody {
+    gap: 450px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* Profile Page Styles*/
+.mainCont {
+    text-align: left;
+}
+
+.formInput {
+    background-color: var(--lightblue);
+    padding: 1rem 1rem 1rem 1rem;
+    border: solid var(--border-color);
+    border-radius: .6rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.formInput input {
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+}
+
+.formInput input::placeholder {
+    color: var(--otherBlue);
+    opacity: 0.3;
+    font-size: .9rem;
+}
+  
+.formInput input:focus {
+    outline: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+
+.checkbox {
+    display: flex;
+    gap: 5px;
+    margin-top: -18px;
+    padding-bottom: 20px;
+}
+
+.profileWaterDiv p {
+    font-size: 1.1rem;
+}
+
+.profileWaterDiv p:first-child, .textOpa {
+    font-size: 1.1rem;
+    opacity: 1;
+}
+
+#saveBtn {
+    padding: 15px 65px;
+    transition: all 0.2s;
+    background-color: var(--xylemyellow);
+    color: white;
+    border-radius: 5px;
+}
+
+#saveBtn:hover {
+    transform: scale(0.9);
+}
+
+.profileFooterCont {
+    margin-top: 50px;
+}
+
+label {
+    opacity: .8;
+}
+
+/* Sign Up */
+input.btn {
+    background-color: var(--xylemyellow);
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.passwordLogin, .emailLogin {
+    padding-block: 20px;
+}
+
+.hrOr {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hrOr hr {
+    width: 50px;
+}
+
+.gfBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.googleBox, .fbBox {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.gfBox p, .fbBox p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+/* Take Action */
+.waterHero {
+    position: relative;
+}
+
+.takeActionNav {
+    justify-content: space-between;
+    text-align: left;
+    padding-inline: 20px;
+}
+
+.cardGrids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#TakeAct {
+    background: url(../Images/dry\ land.png);
+    background-size: 500px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    border-radius: 0;
+    width: 100%;
+    height: 615px;
+    margin-bottom: 130px;
+}
+
+.waterHero h1 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.mainXyl .container {
+    padding-top: 40px;
+    color: white;
+}
+
+.mainXyl .container h1, .mainXyl .container p, .mainXyl .container a {
+    color: white;
+}
+
+.mainXyl .container p {
+    font-size: 1.2rem;
+    opacity: 1;
+    width: 90%;
+    margin: auto;
+    font-weight: 600;
+    text-shadow: 0px 0px 200px black;
+    padding-bottom: 30px;
+}
+
+.underTake {
+    position: absolute;
+    top: 225px;
+    left: 230px;
+} 
+
+.xylManchester {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding-block: 10px 50px;
+}
+
+#plus {
+    font-size: 3rem;
+    padding: 0;
+}
+
+#xylem {
+    font-weight:400;
+    padding: 0;
+}
+
+.worldChange {
+    background: url(../Images/footerBg.png) no-repeat center center;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    z-index: 8;
+}
+
+.worldChange p:nth-of-type(1) {
+    color: white;
+    font-size: 1.4rem;
+    width: 50%;
+    opacity: 1;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.worldChange p:nth-of-type(2) {
+    color: white;
+    width: 60%;
+    opacity: 1;
+    margin: auto;
+    font-weight: 400;
+    font-size: .6rem;
+    margin-top: -10px;
+}
+
+/* Price Draw */
+.protectWater {
+    position: relative;
+}
+
+.takeActionNav {
+    justify-content: space-between;
+    text-align: left;
+    padding-inline: 20px;
+}
+
+.cardGrids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: left;
+    justify-content: center;
+    text-align: center;
+}
+
+#priceDraw {
+    background: url(../Images/flowing\ water.png);
+    background-size: 500px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    border-radius: 0;
+    width: 100%;
+    height: 615px;
+    margin-bottom: 130px;
+}
+
+.protectWater h1 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    width: 95%;
+    margin: auto;
+    padding-block: 150px;
+    letter-spacing: 1px;
+}
+
+.mainXyl .container {
+    padding-top: 40px;
+    color: white;
+}
+
+.mainXyl .container h1, .mainXyl .container p, .mainXyl .container a {
+    color: white;
+}
+
+.mainXyl .container p {
+    font-size: 1.2rem;
+    opacity: 1;
+    width: 90%;
+    margin: auto;
+    font-weight: 600;
+    text-shadow: 0px 0px 200px black;
+    padding-bottom: 30px;
+}
+
+.underPrice {
+    position: absolute;
+    top: 265px;
+    left: 230px;
+} 
+
+.xylManchester {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding-block: 10px 50px;
+}
+
+#plus {
+    font-size: 3rem;
+    padding: 0;
+}
+
+#xylem {
+    font-weight:400;
+    padding: 0;
+}
+
+.worldChange {
+    background: url(../Images/footerBg.png) no-repeat center center;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    z-index: 8;
+}
+
+.worldChange p:nth-of-type(1) {
+    color: white;
+    font-size: 1.4rem;
+    width: 50%;
+    opacity: 1;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.worldChange p:nth-of-type(2) {
+    color: white;
+    width: 60%;
+    opacity: 1;
+    margin: auto;
+    font-weight: 400;
+    font-size: .6rem;
+    margin-top: -10px;
+}
+
+.enterPrice {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-inline: 40px;
+    padding-block: 20px;
+}
+
+.box {
+    background: url(../Images/footerBg.png);
+    background-size: 500px 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-block: 40px 60px;
+    padding-inline: 40px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.box p {
+    padding-bottom: 20px;
+}
+
+.btnWhite {
+    color: var(--xylemblue);
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.box h1, .box p {
+    color: white;
+}
+
+/* Heroes Chat */
+.overNone {
+    overflow-y: hidden;
+}
+
+.deskop {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .container {
+        display: none;
+    }
+
+    .desktop {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin: 200px 200px;
+    }
+}
